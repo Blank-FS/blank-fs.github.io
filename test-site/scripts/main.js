@@ -3,7 +3,7 @@ const myImage = document.querySelector("img");
 myImage.onclick = () => {
   const mySrc = myImage.getAttribute("src");
   if (mySrc === "images/code-geass-symbol.jpg") {
-    myImage.setAttribute("src", "images/genshin.png");
+    myImage.setAttribute("src", "images/steinsGate.jpg");
   } else {
     myImage.setAttribute("src", "images/code-geass-symbol.jpg");
   }
