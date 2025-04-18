@@ -1,5 +1,4 @@
 import ProfileCard from "@/components/general/ProfileCard";
-import HeroSection from "@/components/general/IntroSection";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import Main from "@/components/general/Main";
