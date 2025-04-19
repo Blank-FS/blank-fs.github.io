@@ -4,10 +4,10 @@ import React from "react";
 const EducationSection = () => {
   return (
     <section id="education-section" className="flex flex-col gap-4">
-      <h1 className="text-2xl font-semibold">Education</h1>
+      <h1>Education🎓</h1>
       <div className="flex flex-col gap-2">
         <div className="flex justify-between items-center">
-          <h2 className="font-semibold text-xl">University of Michigan</h2>
+          <h2>University of Michigan</h2>
           <p>Ann Arbor, MI, United States</p>
         </div>
         <div className="flex justify-between">
@@ -18,7 +18,7 @@ const EducationSection = () => {
         </div>
       </div>
       <div className="flex flex-col gap-2">
-        <h2 className="font-semibold text-xl">Relevent Coursework</h2>
+        <h2>Relevent Coursework</h2>
         <ul className="list-disc ml-8">
           {courseworks.map((str, idx) => (
             <li key={`coursework-${idx}`}>{str}</li>

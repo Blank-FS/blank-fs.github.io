@@ -5,7 +5,7 @@ import ExperienceItem from "./ExperienceItem";
 const ExperienceSection = () => {
   return (
     <section id="experience-section" className="flex flex-col gap-4">
-      <h1 className="text-2xl font-semibold">Experience</h1>
+      <h1>Experience🏢</h1>
       <div className="flex flex-col gap-8">
         {experiences.map((item, idx) => {
           return (

@@ -20,7 +20,7 @@ const ProfileCard = () => {
         alt="Felix Shen's profile photo"
         className="rounded w-60"
       />
-      <h1 className="text-2xl font-bold">Felix Shen</h1>
+      <h1>Felix Shen</h1>
       <SocialTray />
 
       <TooltipProvider>

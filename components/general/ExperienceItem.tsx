@@ -11,7 +11,7 @@ const ExperienceItem = ({
   return (
     <div className="flex flex-col gap-2">
       <div className="flex justify-between items-center">
-        <h2 className="font-semibold text-xl">{item.title}</h2>
+        <h2>{item.title}</h2>
         <p>{item.date}</p>
       </div>
       <div className="flex justify-between">

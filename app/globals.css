@@ -1,6 +1,15 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+@layer base {
+  h1 {
+    @apply text-2xl font-bold text-cyan-500;
+  }
+  h2{
+    @apply font-semibold text-xl text-yellow-200;
+  }
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
