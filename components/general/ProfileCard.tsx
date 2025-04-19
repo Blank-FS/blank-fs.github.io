@@ -14,7 +14,7 @@ import {
 
 const ProfileCard = () => {
   return (
-    <Card className="flex flex-col items-center gap-4 p-8 min-w-64 sticky top-4">
+    <Card className="flex flex-col items-center gap-4 p-8 min-w-64 shadow-md shadow-muted-foreground ">
       <img
         src="/profile-photo.jpg"
         alt="Felix Shen's profile photo"
@@ -22,7 +22,6 @@ const ProfileCard = () => {
       />
       <h1>Felix Shen</h1>
       <SocialTray />
-
       <TooltipProvider>
         <Tooltip>
           <TooltipTrigger asChild>

@@ -4,9 +4,12 @@ import ExperienceItem from "./ExperienceItem";
 
 const ExperienceSection = () => {
   return (
-    <section id="experience-section" className="flex flex-col gap-4">
+    <section
+      id="experience-section"
+      className="flex flex-col gap-4 scroll-mt-8"
+    >
       <h1>Experience</h1>
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-4">
         {experiences.map((item, idx) => {
           return (
             <ExperienceItem

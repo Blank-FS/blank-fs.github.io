@@ -12,7 +12,7 @@ import {
 
 const SocialTray = () => {
   return (
-    <div className="flex items-center gap-8 w-full justify-center">
+    <div className="flex items-center gap-8 justify-center">
       <TooltipProvider>
         <Tooltip>
           <TooltipTrigger>
@@ -21,10 +21,12 @@ const SocialTray = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon
-                icon={faLinkedin}
-                className="w-8 text-[#0077B5] dark:text-foreground"
-              />
+              <div className="px-0.5 rounded bg-white w-10">
+                <FontAwesomeIcon
+                  icon={faLinkedin}
+                  className="text-8xl text-[#0077B5] bg-white"
+                />
+              </div>
             </Link>
           </TooltipTrigger>
           <TooltipContent>
@@ -41,7 +43,9 @@ const SocialTray = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faGithub} className="w-8" />
+              <div className="px-1 rounded w-12">
+                <FontAwesomeIcon icon={faGithub} className="text-8xl" />
+              </div>
             </Link>
           </TooltipTrigger>
           <TooltipContent>
@@ -54,7 +58,9 @@ const SocialTray = () => {
         <Tooltip>
           <TooltipTrigger>
             <Link href="mailto:felixshn@umich.edu">
-              <FontAwesomeIcon icon={faEnvelope} className="w-8" />
+              <div className="px-1 rounded w-12">
+                <FontAwesomeIcon icon={faEnvelope} className="text-8xl" />
+              </div>
             </Link>
           </TooltipTrigger>
           <TooltipContent>

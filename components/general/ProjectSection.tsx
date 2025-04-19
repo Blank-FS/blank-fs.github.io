@@ -4,9 +4,9 @@ import ProjectItem from "./ProjectItem";
 
 const ProjectSection = () => {
   return (
-    <section id="project-section" className="flex flex-col gap-4">
+    <section id="projects-section" className="flex flex-col gap-4 scroll-mt-8">
       <h1>Projects</h1>
-      <div className="flex flex-col gap-8">
+      <div className="flex flex-col gap-4">
         {projects.map((item, idx) => {
           return (
             <ProjectItem key={`project-${idx}`} item={item} itemIdx={idx} />

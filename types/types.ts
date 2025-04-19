@@ -15,3 +15,13 @@ export interface ProjectType {
   link: string;
   points: string[];
 }
+
+export interface SkillType {
+  category: string;
+  list: SkillItem[];
+}
+
+export interface SkillItem {
+  name: string;
+  image: string;
+}
