@@ -5,7 +5,7 @@ import ProjectItem from "./ProjectItem";
 const ProjectSection = () => {
   return (
     <section id="project-section" className="flex flex-col gap-4">
-      <h1>Projects🔧</h1>
+      <h1>Projects</h1>
       <div className="flex flex-col gap-8">
         {projects.map((item, idx) => {
           return (

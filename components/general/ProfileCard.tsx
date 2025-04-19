@@ -32,7 +32,7 @@ const ProfileCard = () => {
               rel="noopener noreferrer"
               className="w-full"
             >
-              <Button variant="outline" className="w-full">
+              <Button variant="default" className="w-full">
                 View Resume <FontAwesomeIcon icon={faFile} />
               </Button>
             </Link>

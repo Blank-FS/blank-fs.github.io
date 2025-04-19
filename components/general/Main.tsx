@@ -7,7 +7,7 @@ import ProjectSection from "./ProjectSection";
 
 const Main = () => {
   return (
-    <main className="p-2 md:p-8 flex flex-col gap-4">
+    <main className="p-2 md:p-8 md:pr-16 flex flex-col gap-4 relative">
       <IntroSection />
       <Separator />
       <EducationSection />

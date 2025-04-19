@@ -2,6 +2,7 @@ import ProfileCard from "@/components/general/ProfileCard";
 import { Card } from "@/components/ui/card";
 import { Separator } from "@/components/ui/separator";
 import Main from "@/components/general/Main";
+import { ModeToggle } from "@/components/ui/mode-toggle";
 
 export default function Home() {
   return (
@@ -16,7 +17,12 @@ export default function Home() {
         <div className="block md:hidden">
           <Separator orientation="horizontal" />
         </div>
-        <Main />
+        <div className="relative">
+          <div className="sticky top-4 md:flex justify-end hidden z-50">
+            <ModeToggle />
+          </div>
+          <Main />
+        </div>
       </Card>
     </div>
   );

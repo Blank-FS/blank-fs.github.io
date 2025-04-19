@@ -21,7 +21,10 @@ const SocialTray = () => {
               target="_blank"
               rel="noopener noreferrer"
             >
-              <FontAwesomeIcon icon={faLinkedin} className="w-8" />
+              <FontAwesomeIcon
+                icon={faLinkedin}
+                className="w-8 text-[#0077B5] dark:text-foreground"
+              />
             </Link>
           </TooltipTrigger>
           <TooltipContent>

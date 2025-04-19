@@ -6,6 +6,8 @@ export const experiences: ExperienceType[] = [
     date: "Apr 2025 - Present",
     organization: "University of Michigan Robotics Department",
     location: "Ann Arbor, MI, United States",
+    image: "/experience/umichRob.png",
+    imageAlt: "Univeristy of Michigan Robotics Department Logo",
     points: ["Summer Undergraduate Research in Engineering - SURE 2025"],
   },
   {
@@ -13,6 +15,8 @@ export const experiences: ExperienceType[] = [
     date: "July 2024 - Aug 2024",
     organization: "Shenzhen Ningyuan Technology Co",
     location: "Shenzhen, GD, China",
+    image: "/experience/health160.png",
+    imageAlt: "Health 160 Logo",
     points: [
       "Employed Vue.js for frontend, Spring Boot for backend, and MySQL for database",
       "Migrated the company’s API documentation from a static front-end implementation to a dynamic back-end solution, enabling the storage and management of documentation within a centralized database",
@@ -24,6 +28,8 @@ export const experiences: ExperienceType[] = [
     date: "May 2024 – Jun 2024",
     organization: "Shoppers Drug Mart",
     location: "Burnaby, BC, Canada",
+    image: "/experience/shoppers.png",
+    imageAlt: "Shoppers Drug Mart Logo",
     points: [
       "Helped answer customer questions and concerns",
       "Removed expired products and restocked shelves",
@@ -34,6 +40,8 @@ export const experiences: ExperienceType[] = [
     date: "July 2023 – Aug 2023",
     organization: "BC Technology for Learning Society",
     location: "Burnaby, BC, Canada",
+    image: "/experience/bcTech.png",
+    imageAlt: "BC Technology for Learning Society Logo",
     points: [
       "Categorized computers and recycled their parts",
       "Assisted technicians with monitor testing",
@@ -45,7 +53,7 @@ export const projects: ProjectType[] = [
   {
     title: "TeamUp",
     date: "Sept 2024",
-    stack: "Next.js, Prisma, MongoDB, GitHub, Auth0, Faker.js",
+    stack: ["Next.js", "Prisma", "MongoDB", "GitHub", "Auth0", "Faker.js"],
     link: "https://github.com/Blank-FS/team-up",
     points: [
       "MHacks-2024 (Hackathon) project. The website helps hackers form teams by matching them with other users with similar skill sets/tech stacks",
@@ -57,7 +65,7 @@ export const projects: ProjectType[] = [
   {
     title: "API Documentation Backend",
     date: "July 2024 – Aug. 2024",
-    stack: "Java, Maven, Spring Boot, JPA/Hibernate, MySQL, Git",
+    stack: ["Java", "Maven", "Spring Boot", "JPA/Hibernate", "MySQL", "Git"],
     link: "https://github.com/Blank-FS/api-document",
     points: [
       "Developed a Spring Boot backend that stores API documents organized by category and topic as String data in a relational database",
@@ -68,8 +76,16 @@ export const projects: ProjectType[] = [
   {
     title: "KotobaQuest",
     date: "Mar. 2024 – Apr. 2024",
-    stack:
-      "Next.js, Prisma, MySQL, Tailwind CSS, shadcn/ui, Auth.js, Netlify, AWS RDS",
+    stack: [
+      "Next.js",
+      "Prisma",
+      "MySQL",
+      "Tailwind CSS",
+      "shadcn/ui",
+      "Auth.js",
+      "Netlify",
+      "AWS RDS",
+    ],
     link: "https://github.com/Blank-FS/kotoba-quest",
     points: [
       "Developed a full-stack application using Next.js for both frontend and backend, Tailwind CSS and shadcn/ui for styling, Prisma for ORM, MySQL for database, and Netlify and AWS RDS for web services",

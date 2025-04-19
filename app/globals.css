@@ -3,10 +3,10 @@
 
 @layer base {
   h1 {
-    @apply text-2xl font-bold text-cyan-500;
+    @apply text-2xl font-bold text-cyan-900 dark:text-cyan-500;
   }
   h2{
-    @apply font-semibold text-xl text-yellow-200;
+    @apply font-semibold text-xl text-amber-600 dark:text-amber-200;
   }
 }
 

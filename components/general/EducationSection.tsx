@@ -4,17 +4,23 @@ import React from "react";
 const EducationSection = () => {
   return (
     <section id="education-section" className="flex flex-col gap-4">
-      <h1>Education🎓</h1>
+      <h1>Education</h1>
       <div className="flex flex-col gap-2">
-        <div className="flex justify-between items-center">
+        <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-2">
           <h2>University of Michigan</h2>
-          <p>Ann Arbor, MI, United States</p>
-        </div>
-        <div className="flex justify-between">
-          <p className="italic">
-            BSE in Computer Science (Sophomore)- GPA: 4.0
+          <p className="italic flex items-center gap-1">
+            <img src="/location.svg" alt="Location Icon" className="w-5 h-5" />
+            <span>Ann Arbor, MI, United States</span>
           </p>
-          <p className="italic">Aug 2024 - May 2028</p>
+        </div>
+        <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-2">
+          <p className="italic">
+            BSE in Computer Science (Sophomore) - GPA: 4.0
+          </p>
+          <p className="italic flex items-center gap-1">
+            <img src="/calendar.png" alt="Calendar Icon" className="w-5 h-5" />
+            <span>Aug 2024 - May 2028</span>
+          </p>
         </div>
       </div>
       <div className="flex flex-col gap-2">
