@@ -2,7 +2,10 @@ import React from "react";
 
 const AboutSection = () => {
   return (
-    <section id="about-section" className="flex flex-col gap-4 scroll-mt-8">
+    <section
+      id="about-section"
+      className="flex flex-col gap-4 scroll-mt-26 md:scroll-mt-8"
+    >
       <h1>About</h1>
       <div className="p-4">
         <h2>{"Hi, I'm Felix!👋"}</h2>

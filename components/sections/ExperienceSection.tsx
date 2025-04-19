@@ -1,12 +1,12 @@
 import { experiences } from "@/data/content";
 import React from "react";
-import ExperienceItem from "./ExperienceItem";
+import ExperienceItem from "../general/ExperienceItem";
 
 const ExperienceSection = () => {
   return (
     <section
       id="experience-section"
-      className="flex flex-col gap-4 scroll-mt-8"
+      className="flex flex-col gap-4 scroll-mt-26 md:scroll-mt-8"
     >
       <h1>Experience</h1>
       <div className="flex flex-col gap-4">

@@ -18,10 +18,10 @@ export interface ProjectType {
 
 export interface SkillType {
   category: string;
-  list: SkillItem[];
+  list: Skill[];
 }
 
-export interface SkillItem {
+export interface Skill {
   name: string;
   image: string;
 }

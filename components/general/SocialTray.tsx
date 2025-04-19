@@ -24,7 +24,7 @@ const SocialTray = () => {
               <div className="px-0.5 rounded bg-white w-10">
                 <FontAwesomeIcon
                   icon={faLinkedin}
-                  className="text-8xl text-[#0077B5] bg-white"
+                  className="text-4xl text-[#0077B5] bg-white"
                 />
               </div>
             </Link>
@@ -44,7 +44,7 @@ const SocialTray = () => {
               rel="noopener noreferrer"
             >
               <div className="px-1 rounded w-12">
-                <FontAwesomeIcon icon={faGithub} className="text-8xl" />
+                <FontAwesomeIcon icon={faGithub} className="text-4xl" />
               </div>
             </Link>
           </TooltipTrigger>
@@ -59,7 +59,7 @@ const SocialTray = () => {
           <TooltipTrigger>
             <Link href="mailto:felixshn@umich.edu">
               <div className="px-1 rounded w-12">
-                <FontAwesomeIcon icon={faEnvelope} className="text-8xl" />
+                <FontAwesomeIcon icon={faEnvelope} className="text-4xl" />
               </div>
             </Link>
           </TooltipTrigger>

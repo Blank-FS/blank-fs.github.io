@@ -4,17 +4,13 @@ import { Separator } from "@/components/ui/separator";
 import Main from "@/components/general/Main";
 import { ModeToggle } from "@/components/ui/mode-toggle";
 import Link from "next/link";
-
-const sectionIds = [
-  "about-section",
-  "education-section",
-  "experience-section",
-  "projects-section",
-];
+import MobileHeader from "@/components/general/MobileHeader";
+import { sectionIds } from "@/data/content";
 
 export default function Home() {
   return (
     <div className="flex flex-col items-center">
+      <MobileHeader />
       <Card className="p-4 w-full max-w-400 md:flex-row rounded-none">
         <div>
           <div className="sticky top-4 flex flex-col gap-12">

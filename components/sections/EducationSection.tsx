@@ -4,7 +4,10 @@ import ImageWrapper from "../ui/image-wrapper";
 
 const EducationSection = () => {
   return (
-    <section id="education-section" className="flex flex-col gap-4 scroll-mt-8">
+    <section
+      id="education-section"
+      className="flex flex-col gap-4 scroll-mt-26 md:scroll-mt-8"
+    >
       <h1>Education</h1>
       <div className="p-4">
         <div className="flex gap-4">

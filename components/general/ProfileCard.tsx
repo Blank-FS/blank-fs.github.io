@@ -14,7 +14,10 @@ import {
 
 const ProfileCard = () => {
   return (
-    <Card className="flex flex-col items-center gap-4 p-8 min-w-64 shadow-md shadow-muted-foreground ">
+    <Card
+      id="contact-section"
+      className="flex flex-col items-center gap-4 p-8 min-w-64 shadow-md shadow-muted-foreground scroll-mt-26"
+    >
       <img
         src="/profile-photo.jpg"
         alt="Felix Shen's profile photo"

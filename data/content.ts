@@ -1,4 +1,4 @@
-import { ExperienceType, ProjectType } from "@/types/types";
+import { ExperienceType, ProjectType, SkillType } from "@/types/types";
 
 export const experiences: ExperienceType[] = [
   {
@@ -105,4 +105,139 @@ export const courseworks: string[] = [
   "EECS 280 (Programming & Data Structures)",
   "EECS 203 (Discrete Math)",
   "EECS 201 (Computer Science Pragmatics",
+];
+
+export const skills: SkillType[] = [
+  {
+    category: "Languages",
+    list: [
+      {
+        name: "C++",
+        image: "/skill/languages/cpp.png",
+      },
+      {
+        name: "C",
+        image: "/skill/languages/c.png",
+      },
+      {
+        name: "Java",
+        image: "/skill/languages/java.png",
+      },
+      {
+        name: "Python",
+        image: "/skill/languages/python.png",
+      },
+      {
+        name: "HTML",
+        image: "/skill/languages/html.png",
+      },
+      {
+        name: "CSS",
+        image: "/skill/languages/css.png",
+      },
+      {
+        name: "JavaScript",
+        image: "/skill/languages/js.png",
+      },
+      {
+        name: "TypeScript",
+        image: "/skill/languages/ts.png",
+      },
+      {
+        name: "SQL",
+        image: "/skill/languages/sql.png",
+      },
+    ],
+  },
+  {
+    category: "Frontend",
+    list: [
+      {
+        name: "React",
+        image: "/skill/frontend/reactjs.webp",
+      },
+      {
+        name: "Next.js",
+        image: "/skill/frontend/nextjs.png",
+      },
+      {
+        name: "Tailwind",
+        image: "/skill/frontend/tailwind.png",
+      },
+      {
+        name: "Vue.js",
+        image: "/skill/frontend/vue.png",
+      },
+    ],
+  },
+  {
+    category: "Backend",
+    list: [
+      {
+        name: "Spring Boot",
+        image: "/skill/backend/springboot.png",
+      },
+      {
+        name: "Hibernate",
+        image: "/skill/backend/hibernate.png",
+      },
+      {
+        name: "Node.js",
+        image: "/skill/backend/node.png",
+      },
+      {
+        name: "Express.js",
+        image: "/skill/backend/express.png",
+      },
+      {
+        name: "Prisma",
+        image: "/skill/backend/prisma.png",
+      },
+      {
+        name: "MySQL",
+        image: "/skill/backend/mysql.png",
+      },
+      {
+        name: "PostgreSQL",
+        image: "/skill/backend/postgresql.png",
+      },
+      {
+        name: "MongoDB",
+        image: "/skill/backend/mongodb.png",
+      },
+      {
+        name: "AWS Relational Database Service (RDS)",
+        image: "/skill/backend/aws-rds.png",
+      },
+    ],
+  },
+  {
+    category: "Dev Tools",
+    list: [
+      {
+        name: "Git",
+        image: "/skill/devtools/git.png",
+      },
+      {
+        name: "Visual Studio Code",
+        image: "/skill/devtools/vscode.png",
+      },
+      {
+        name: "Ubuntu Linux",
+        image: "/skill/devtools/ubuntu-linux.jpg",
+      },
+      {
+        name: "Docker",
+        image: "/skill/devtools/docker.png",
+      },
+    ],
+  },
+];
+
+export const sectionIds = [
+  "about-section",
+  "education-section",
+  "experience-section",
+  "projects-section",
+  "skills-section",
 ];

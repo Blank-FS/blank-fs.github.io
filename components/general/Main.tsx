@@ -1,9 +1,10 @@
 import React from "react";
-import EducationSection from "./EducationSection";
+import EducationSection from "../sections/EducationSection";
 import { Separator } from "../ui/separator";
-import ExperienceSection from "./ExperienceSection";
-import ProjectSection from "./ProjectSection";
-import AboutSection from "./AboutSection";
+import ExperienceSection from "../sections/ExperienceSection";
+import ProjectSection from "../sections/ProjectSection";
+import AboutSection from "../sections/AboutSection";
+import SkillSection from "../sections/SkillSection";
 
 const Main = () => {
   return (
@@ -15,6 +16,8 @@ const Main = () => {
       <ExperienceSection />
       <Separator />
       <ProjectSection />
+      <Separator />
+      <SkillSection />
     </main>
   );
 };
