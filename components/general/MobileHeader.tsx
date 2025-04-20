@@ -3,7 +3,7 @@ import React, { useState } from "react";
 import { ModeToggle } from "../ui/mode-toggle";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faBars, faXmark } from "@fortawesome/free-solid-svg-icons";
-import { sectionIds } from "@/data/content";
+import { profile, sectionIds } from "@/data/content";
 import Link from "next/link";
 import { Separator } from "../ui/separator";
 import { Button } from "../ui/button";
@@ -54,6 +54,7 @@ const MobileHeader = () => {
           })}
         </nav>
       </div>
+      <h1>{profile.name}</h1>
       <ModeToggle className="shadow-muted-foreground mr-4 shadow-md" />
     </header>
   );
