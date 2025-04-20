@@ -6,7 +6,7 @@ const ExperienceSection = () => {
   return (
     <section
       id="experience-section"
-      className="flex flex-col gap-4 scroll-mt-26 md:scroll-mt-8"
+      className="flex scroll-mt-26 flex-col gap-4 md:scroll-mt-8"
     >
       <h1>Experience</h1>
       <div className="flex flex-col gap-4">

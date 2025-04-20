@@ -1,4 +1,55 @@
-import { ExperienceType, ProjectType, SkillType } from "@/types/types";
+import {
+  AboutType,
+  EducationType,
+  ExperienceType,
+  ProfileType,
+  ProjectType,
+  SkillType,
+} from "@/types/types";
+
+export const profile: ProfileType = {
+  name: "Felix Shen",
+  image: "/profile-photo.jpg",
+  imageAlt: "Felix Shen's profile photo",
+  linkedin: "https://www.linkedin.com/in/felix-shen-a40195299",
+  github: "https://github.com/Blank-FS",
+  email: "felixshn@umich.edu",
+  resume: "/resume.pdf",
+};
+
+export const about: AboutType = {
+  greeting: "Hi, I'm Felix!👋",
+  paragraphs: [
+    "I'm a junior at the University of Michigan pursuing a BSE in Computer Science, currently holding a 4.0 unweighted GPA. My academic journey is driven by a deep passion for technology and a commitment to continuous learning and growth.",
+
+    "I’ve had the opportunity to gain hands-on experience through internships and personal projects, where I’ve worked across the full stack using modern frameworks and tools like Next.js, Spring Boot, and both SQL and NoSQL databases. During my internship at Shenzhen Ningyuan Technology Co., I streamlined API documentation processes by transitioning from a static frontend to a dynamic backend solution using Spring Boot and MySQL — boosting productivity and maintainability for the development team.",
+
+    "Outside of internships, I’ve worked on several projects such as TeamUp, a full-stack matchmaking platform for hackathons built using Next.js and MongoDB, and KotobaQuest, a Japanese vocabulary learning tool that’s actively helped students at my high school. Currently, I'm building an over-the-top (OTT) platform with e-commerce integration using Next.js for frontend and Spring Boot for backend. These experiences not only sharpened my development skills but also taught me the value of collaboration, design thinking, and creating meaningful user experiences.",
+
+    "I'm especially enthusiastic about exploring opportunities where I can grow as a developer, contribute to impactful projects, and work with innovative teams. Whether it's building scalable backend systems, crafting intuitive frontends, or contributing to open-source, I'm eager to keep pushing boundaries and learning more every day.",
+  ],
+};
+
+export const education: EducationType = {
+  school: "University of Michigan",
+  image: "/michigan-engineering.png",
+  imageAlt: "Michigan Engineering Logo",
+  date: "Aug 2024 - May 2027",
+  location: "Ann Arbor, MI, United States",
+  overview: "BSE in Computer Science (Junior) - GPA: 4.0",
+  courseLink: "https://bulletin.engin.umich.edu/courses/eecs/",
+  courseworks: [
+    "EECS 489 (Computer Networks)",
+    "EECS 481 (Software Engineering)",
+    "EECS 445 (Intro to Machine Learning)",
+    "EECS 376 (Foundations of Computer Science)",
+    "EECS 370 (Intro to Computer Organization)",
+    "EECS 281 (Data Structures & Algorithms)",
+    "EECS 280 (Programming & Data Structures)",
+    "EECS 203 (Discrete Math)",
+    "EECS 201 (Computer Science Pragmatics)",
+  ],
+};
 
 export const experiences: ExperienceType[] = [
   {
@@ -93,18 +144,6 @@ export const projects: ProjectType[] = [
       "Designed a website that teaches Japanese vocabulary, containing randomly generated practice sets. Helped students taking Japanese at my school with their language learning",
     ],
   },
-];
-
-export const courseworks: string[] = [
-  "EECS 489 (Computer Networks)",
-  "EECS 481 (Software Engineering)",
-  "EECS 445 (Intro to Machine Learning)",
-  "EECS 376 (Foundations of Computer Science)",
-  "EECS 370 (Intro to Computer Organization)",
-  "EECS 281 (Data Structures & Algorithms)",
-  "EECS 280 (Programming & Data Structures)",
-  "EECS 203 (Discrete Math)",
-  "EECS 201 (Computer Science Pragmatics",
 ];
 
 export const skills: SkillType[] = [

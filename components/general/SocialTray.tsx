@@ -9,22 +9,23 @@ import {
   TooltipProvider,
   TooltipTrigger,
 } from "@/components/ui/tooltip";
+import { profile } from "@/data/content";
 
 const SocialTray = () => {
   return (
-    <div className="flex items-center gap-8 justify-center">
+    <div className="flex items-center justify-center gap-8">
       <TooltipProvider>
         <Tooltip>
           <TooltipTrigger>
             <Link
-              href="https://www.linkedin.com/in/felix-shen-a40195299"
+              href={profile.linkedin}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div className="px-0.5 rounded bg-white w-10">
+              <div className="w-10 rounded bg-white px-0.5">
                 <FontAwesomeIcon
                   icon={faLinkedin}
-                  className="text-4xl text-[#0077B5] bg-white"
+                  className="bg-white text-4xl text-[#0077B5]"
                 />
               </div>
             </Link>
@@ -39,11 +40,11 @@ const SocialTray = () => {
         <Tooltip>
           <TooltipTrigger>
             <Link
-              href="https://github.com/Blank-FS"
+              href={profile.github}
               target="_blank"
               rel="noopener noreferrer"
             >
-              <div className="px-1 rounded w-12">
+              <div className="w-12 rounded px-1">
                 <FontAwesomeIcon icon={faGithub} className="text-4xl" />
               </div>
             </Link>
@@ -57,8 +58,8 @@ const SocialTray = () => {
       <TooltipProvider>
         <Tooltip>
           <TooltipTrigger>
-            <Link href="mailto:felixshn@umich.edu">
-              <div className="px-1 rounded w-12">
+            <Link href={`mailto:${profile.email}`}>
+              <div className="w-12 rounded px-1">
                 <FontAwesomeIcon icon={faEnvelope} className="text-4xl" />
               </div>
             </Link>

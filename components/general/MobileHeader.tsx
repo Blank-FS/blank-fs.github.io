@@ -16,11 +16,11 @@ const MobileHeader = () => {
   };
 
   return (
-    <div className="md:hidden w-[100vw] bg-muted py-4 sticky top-0 z-50 flex justify-between items-center relative">
+    <header className="bg-muted sticky top-0 z-50 flex w-[100vw] items-center justify-between py-4 md:hidden">
       <Button
         variant="outline"
         onClick={toggleMenu}
-        className="shadow-md shadow-muted-foreground ml-4"
+        className="shadow-muted-foreground ml-4 shadow-md"
       >
         <span className="sr-only">Open Menu</span>
         {isMenuOpen ? (
@@ -32,28 +32,20 @@ const MobileHeader = () => {
       <div
         className={`${
           isMenuOpen ? "block" : "hidden"
-        } absolute top-17 z-10  bg-card border border-foreground flex p-4 gap-4 w-[100vw]`}
+        } bg-card border-foreground absolute top-17 z-10 flex w-[100vw] gap-4 border p-4`}
         id="mobile-menu"
       >
         <div>
           <Separator orientation="vertical" className="bg-primary" />
         </div>
         <nav className="flex flex-col gap-4 py-2">
-          <Link
-            key="contact-section"
-            href="#contact-section"
-            className="dark:hover:text-cyan-500 hover:text-cyan-700"
-            onClick={toggleMenu}
-          >
-            <h3>Contact</h3>
-          </Link>
           {sectionIds.map((id) => {
             const label = id.replace("-section", "").replace("-", " ");
             return (
               <Link
                 key={`mobile-${id}`}
                 href={`#${id}`}
-                className="dark:hover:text-cyan-500 hover:text-cyan-700"
+                className="hover:text-cyan-700 dark:hover:text-cyan-500"
                 onClick={toggleMenu}
               >
                 <h3>{label.charAt(0).toUpperCase() + label.slice(1)}</h3>
@@ -62,8 +54,8 @@ const MobileHeader = () => {
           })}
         </nav>
       </div>
-      <ModeToggle className="shadow-md shadow-muted-foreground mr-4" />
-    </div>
+      <ModeToggle className="shadow-muted-foreground mr-4 shadow-md" />
+    </header>
   );
 };
 

@@ -8,7 +8,7 @@ import SkillSection from "../sections/SkillSection";
 
 const Main = () => {
   return (
-    <main className="md:p-8 md:pr-16 flex flex-col gap-4 relative">
+    <main className="relative flex flex-col gap-4 md:p-8">
       <AboutSection />
       <Separator />
       <EducationSection />

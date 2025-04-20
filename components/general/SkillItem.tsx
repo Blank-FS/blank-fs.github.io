@@ -10,11 +10,11 @@ import {
 
 const SkillItem = ({ item, itemIdx }: { item: SkillType; itemIdx: number }) => {
   return (
-    <Card className="p-4 bg-linear-to-r from-white via-neutral-100 to-white dark:from-neutral-900 dark:via-neutral-800 dark:to-neutral-900">
+    <Card className="bg-linear-to-r from-white via-neutral-100 to-white p-4 dark:from-neutral-900 dark:via-neutral-800 dark:to-neutral-900">
       <div className="flex flex-col gap-2">
-        <div className="flex flex-col gap-2 items-center">
+        <div className="flex flex-col items-center gap-2">
           <h2>{item.category}</h2>
-          <div className="flex justify-center flex-wrap gap-4">
+          <div className="flex flex-wrap justify-center gap-4">
             {item.list.map((skill, idx) => (
               <TooltipProvider key={`skill-${itemIdx}-item-${idx}`}>
                 <Tooltip>
@@ -22,7 +22,7 @@ const SkillItem = ({ item, itemIdx }: { item: SkillType; itemIdx: number }) => {
                     <img
                       src={skill.image}
                       alt={`${skill.name} Icon`}
-                      className="w-20 h-20"
+                      className="h-20 w-20"
                     />
                   </TooltipTrigger>
                   <TooltipContent>

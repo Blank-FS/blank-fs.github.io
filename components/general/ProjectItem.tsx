@@ -14,27 +14,26 @@ const ProjectItem = ({
   itemIdx: number;
 }) => {
   return (
-    <Card className="p-4 bg-linear-to-r from-white via-neutral-100 to-white dark:from-neutral-900 dark:via-neutral-800 dark:to-neutral-900">
+    <Card className="bg-linear-to-r from-white via-neutral-100 to-white p-4 dark:from-neutral-900 dark:via-neutral-800 dark:to-neutral-900">
       <div className="flex flex-col gap-2">
         <div className="flex flex-col gap-2">
-          <div className="flex flex-col md:flex-row md:justify-between md:items-center gap-2 ">
-            <div className="flex gap-2 items-center">
+          <div className="flex flex-col gap-2 md:flex-row md:items-center md:justify-between">
+            <div className="flex items-center gap-2">
               <h2>{item.title}</h2>
               <Link href={item.link} target="_blank" rel="noopener noreferrer">
                 <FontAwesomeIcon icon={faLink} className="w-5" />
               </Link>
             </div>
-
-            <p className="italic flex items-center gap-1">
+            <p className="flex items-center gap-1 italic">
               <img
                 src="/calendar.png"
                 alt="Calendar Icon"
-                className="w-5 h-5"
+                className="h-5 w-5"
               />
               <span>{item.date}</span>
             </p>
           </div>
-          <div className="flex gap-2 flex-wrap">
+          <div className="flex flex-wrap gap-2">
             {item.stack.map((str, idx) => (
               <Badge variant="default" key={`project-${itemIdx}-badge-${idx}`}>
                 {str}
@@ -42,7 +41,7 @@ const ProjectItem = ({
             ))}
           </div>
         </div>
-        <ul className="list-disc ml-8">
+        <ul className="ml-8 list-disc">
           {item.points.map((str, idx) => {
             return <li key={`project-${itemIdx}-point-${idx}`}>{str}</li>;
           })}

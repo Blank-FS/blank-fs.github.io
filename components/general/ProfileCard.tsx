@@ -5,45 +5,31 @@ import { Button } from "../ui/button";
 import Link from "next/link";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faFile } from "@fortawesome/free-solid-svg-icons";
-import {
-  Tooltip,
-  TooltipContent,
-  TooltipProvider,
-  TooltipTrigger,
-} from "@/components/ui/tooltip";
+import { profile } from "@/data/content";
 
 const ProfileCard = () => {
   return (
     <Card
       id="contact-section"
-      className="flex flex-col items-center gap-4 p-8 min-w-64 shadow-md shadow-muted-foreground scroll-mt-26"
+      className="shadow-muted-foreground flex min-w-64 scroll-mt-26 flex-col items-center gap-4 p-8 shadow-md"
     >
       <img
-        src="/profile-photo.jpg"
-        alt="Felix Shen's profile photo"
-        className="rounded w-60"
+        src={profile.image}
+        alt={profile.imageAlt}
+        className="w-60 rounded"
       />
-      <h1>Felix Shen</h1>
+      <h1>{profile.name}</h1>
       <SocialTray />
-      <TooltipProvider>
-        <Tooltip>
-          <TooltipTrigger asChild>
-            <Link
-              href="/resume.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="w-full"
-            >
-              <Button variant="default" className="w-full">
-                View Resume <FontAwesomeIcon icon={faFile} />
-              </Button>
-            </Link>
-          </TooltipTrigger>
-          <TooltipContent>
-            <p>View Resume</p>
-          </TooltipContent>
-        </Tooltip>
-      </TooltipProvider>
+      <Link
+        href={profile.resume}
+        target="_blank"
+        rel="noopener noreferrer"
+        className="w-full"
+      >
+        <Button variant="default" className="w-full">
+          View Resume <FontAwesomeIcon icon={faFile} />
+        </Button>
+      </Link>
     </Card>
   );
 };
