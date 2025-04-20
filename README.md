@@ -1,36 +1,36 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-## Getting Started
+## Hi, I'm Felix! 👋
 
-First, run the development server:
+### This repo contains my personal website
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+### About Me
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+- 🎓 CS @ University of Michigan - Ann Arbor
+- 📌 Interests
+  - Software Engineering
+  - Fullstack Development
+  - AI/Machine Learning
+- 📜 [Relevant Coursework @ UMich](https://bulletin.engin.umich.edu/courses/eecs/)
+	-   EECS 489 (Computer Networks)
+	-   EECS 481 (Software Engineering)
+	-   EECS 445 (Intro to Machine Learning)
+	-   EECS 376 (Foundations of Computer Science)
+	-   EECS 370 (Intro to Computer Organization)
+	-   EECS 281 (Data Structures & Algorithms)
+	-   EECS 280 (Programming & Data Structures)
+	-   EECS 201 (Computer Science Pragmatics)
+    
+-   EECS 203 (Discrete Math)
+- 🚀 Technical skills
+  - Languages: C/C++, Java, Python, JavaScript/TypeScript, SQL, LaTeX
+  - Front-end: HTML, CSS/Tailwind, React/Next.js, Vue.js
+  - Back-end: Spring Boot + JPA/Hibernate, Node.js/Express.js + Prisma, SQL (MySQL, PostgreSQL), NoSQL (MongoDB), AWS RDS
+  - Developer Tools: Git/GitHub, VS Code, Bash/Linux/Ubuntu, Docker
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Contact
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+[![LinkedIn](https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?logo=linkedin-white&logoColor=fff)](https://www.linkedin.com/in/felix-shen-a40195299)
+[![GitHub](https://img.shields.io/badge/GitHub-%23121011.svg?logo=github&logoColor=white)](https://github.com/Blank-FS)
+[![Gmail](https://img.shields.io/badge/felixshn@umich.edu-D14836?logo=gmail&logoColor=white)](#)
 
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+More info: [Personal Website](https://blank-fs.github.io/)
