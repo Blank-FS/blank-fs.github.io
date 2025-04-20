@@ -18,9 +18,8 @@
 	-   EECS 370 (Intro to Computer Organization)
 	-   EECS 281 (Data Structures & Algorithms)
 	-   EECS 280 (Programming & Data Structures)
+ 	-   EECS 203 (Discrete Math) 
 	-   EECS 201 (Computer Science Pragmatics)
-    
--   EECS 203 (Discrete Math)
 - 🚀 Technical skills
   - Languages: C/C++, Java, Python, JavaScript/TypeScript, SQL, LaTeX
   - Front-end: HTML, CSS/Tailwind, React/Next.js, Vue.js
