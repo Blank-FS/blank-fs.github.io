@@ -20,7 +20,7 @@ export const profile: ProfileType = {
 export const about: AboutType = {
   greeting: "Hi, I'm Felix!👋",
   paragraphs: [
-    "I'm a junior at the University of Michigan pursuing a BSE in Computer Science, currently holding a 4.0 unweighted GPA. My academic journey is driven by a deep passion for technology and a commitment to continuous learning and growth.",
+    "I'm a rising junior at the University of Michigan pursuing a BSE in Computer Science, currently holding a 4.0 unweighted GPA. My academic journey is driven by a deep passion for technology and a commitment to continuous learning and growth.",
 
     "I’ve had the opportunity to gain hands-on experience through internships and personal projects, where I’ve worked across the full stack using modern frameworks and tools like Next.js, Spring Boot, and both SQL and NoSQL databases. During my internship at Shenzhen Ningyuan Technology Co., I streamlined API documentation processes by transitioning from a static frontend to a dynamic backend solution using Spring Boot and MySQL — boosting productivity and maintainability for the development team.",
 
@@ -36,7 +36,7 @@ export const education: EducationType = {
   imageAlt: "Michigan Engineering Logo",
   date: "Aug 2024 - May 2027",
   location: "Ann Arbor, MI, United States",
-  overview: "BSE in Computer Science (Junior) - GPA: 4.0",
+  overview: "BSE in Computer Science (Rising Junior) - GPA: 4.0",
   courseLink: "https://bulletin.engin.umich.edu/courses/eecs/",
   courseworks: [
     "EECS 489 (Computer Networks)",
