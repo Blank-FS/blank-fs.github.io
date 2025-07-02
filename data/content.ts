@@ -53,7 +53,7 @@ export const education: EducationType = {
 
 export const experiences: ExperienceType[] = [
   {
-    title: "IGMR Lab Researcher",
+    title: "IGMR Lab Research Assistant",
     date: "Apr 2025 - Present",
     organization: "University of Michigan Robotics Department",
     location: "Ann Arbor, MI, United States",
@@ -61,18 +61,20 @@ export const experiences: ExperienceType[] = [
     imageAlt: "Univeristy of Michigan Robotics Department Logo",
     points: [
       "Summer Undergraduate Research in Engineering - SURE 2025",
-      "Develop GUI for advanced robotic microsurgical system with real-time OCT imaging and 3D visualization",
+      "Developed control software for a dual-arm robotic microsurgery system with teleoperation via haptic devices",
+      "Integrated Cyclone DDS for real-time data distribution and low latency communication",
     ],
   },
   {
-    title: "Research Programmer",
+    title: "BAAC Lab Research Assistant",
     date: "Apr 2025 - Present",
     organization: "Michigan Medicine",
     location: "Ann Arbor, MI, United States",
     image: "/experience/umichMed.png",
     imageAlt: "Michigan Medicine Logo",
     points: [
-      "Create dynamically generated interactive icon arrays for research study on positively addressing vaccine hesitancy",
+      "Designed and built interactive icon arrays using web technologies for research study on reducing vaccine hesitancy",
+      "Created customized Qualtrics surveys using JavaScript and CSS to meet specific research requirements",
     ],
   },
   {
