@@ -20,7 +20,7 @@ export const profile: ProfileType = {
 export const about: AboutType = {
   greeting: "Hi, I'm Felix!👋",
   paragraphs: [
-    "I'm a rising junior at the University of Michigan pursuing a BSE in Computer Science, currently holding a 4.0 unweighted GPA. My academic journey is driven by a deep passion for technology and a commitment to continuous learning and growth.",
+    "I'm a upcoming senior at the University of Michigan pursuing a BSE in Computer Science, currently holding a 4.0 unweighted GPA. My academic journey is driven by a deep passion for technology and a commitment to continuous learning and growth.",
 
     "I've had the opportunity to gain hands-on experience through internships and personal projects, where I've worked across the full stack using modern frameworks and tools like Next.js, Spring Boot, and both SQL and NoSQL databases. During my internship at Shenzhen Ningyuan Technology Co., I streamlined API documentation processes by transitioning from a static frontend to a dynamic backend solution using Spring Boot and MySQL — boosting productivity and maintainability for the development team.",
 
@@ -36,14 +36,16 @@ export const education: EducationType = {
   imageAlt: "Michigan Engineering Logo",
   date: "Aug 2024 - May 2027",
   location: "Ann Arbor, MI, United States",
-  overview: "BSE in Computer Science (Junior) - GPA: 4.0",
+  overview: "BSE in Computer Science (Senior) - GPA: 4.0",
   courseLink: "https://bulletin.engin.umich.edu/courses/eecs/",
   courseworks: [
+    "EECS 497 (Human-Centered Software Design and Development)",
     "EECS 489 (Computer Networks)",
+    "EECS 482 (Operating Systems)",
     "EECS 481 (Software Engineering)",
-    "EECS 445 (Intro to Machine Learning)",
+    "EECS 445 (Machine Learning)",
     "EECS 376 (Foundations of Computer Science)",
-    "EECS 370 (Intro to Computer Organization)",
+    "EECS 370 (Computer Organization)",
     "EECS 281 (Data Structures & Algorithms)",
     "EECS 280 (Programming & Data Structures)",
     "EECS 203 (Discrete Math)",
@@ -60,9 +62,9 @@ export const experiences: ExperienceType[] = [
     image: "/experience/umichRob.png",
     imageAlt: "Univeristy of Michigan Robotics Department Logo",
     points: [
-      "Summer Undergraduate Research in Engineering - SURE 2025",
       "Developed control software for a dual-arm robotic microsurgery system with teleoperation via haptic devices",
-      "Integrated Cyclone DDS for real-time data distribution and low latency communication",
+      "Integrated Cyclone DDS to enable real-time, low-latency data communication between system components",
+      "Architected data transmission framework across distributed nodes, ensuring scalability and robust performance",
     ],
   },
   {
@@ -73,8 +75,9 @@ export const experiences: ExperienceType[] = [
     image: "/experience/umichMed.png",
     imageAlt: "Michigan Medicine Logo",
     points: [
-      "Designed and built interactive icon arrays using web technologies for research study on reducing vaccine hesitancy",
-      "Created customized Qualtrics surveys using JavaScript and CSS to meet specific research requirements",
+      "Programmed interactive icon array visuals for study on how data presentation affects understanding and decisions",
+      "Customized Qualtrics surveys with JavaScript and CSS to meet complex research requirements",
+      "Built and deployed website on AWS EC2 instance using Docker and Nginx for a vaccine decision aid study",
     ],
   },
   {
@@ -117,6 +120,25 @@ export const experiences: ExperienceType[] = [
 ];
 
 export const projects: ProjectType[] = [
+  {
+    title: "Intervention Studies",
+    date: "Sept 2025 - Present",
+    stack: [
+      "TypeScript",
+      "React.js",
+      "Next.js",
+      "Tailwind CSS",
+      "Spring Boot",
+      "Docker",
+      "AWS",
+      "Nginx",
+    ],
+    link: "https://github.com/Blank-FS/intervention-studies",
+    points: [
+      "Created a platform for researchers to conduct studies on with a dashboard to manage users and study responses",
+      "Implemented role-based auth with JWTs, displaying different pages for researchers and participants",
+    ],
+  },
   {
     title: "Ineed.io",
     date: "Jan 2025 - Apr 2025",
@@ -260,20 +282,12 @@ export const skills: SkillType[] = [
         image: "/skill/backend/springboot.png",
       },
       {
-        name: "Hibernate",
-        image: "/skill/backend/hibernate.png",
-      },
-      {
         name: "Node.js",
         image: "/skill/backend/node.png",
       },
       {
         name: "Express.js",
         image: "/skill/backend/express.png",
-      },
-      {
-        name: "Prisma",
-        image: "/skill/backend/prisma.png",
       },
       {
         name: "MySQL",
@@ -288,8 +302,16 @@ export const skills: SkillType[] = [
         image: "/skill/backend/mongodb.png",
       },
       {
+        name: "AWS Elastic Compute Cloud (EC2)",
+        image: "/skill/backend/aws-ec2.png",
+      },
+      {
         name: "AWS Relational Database Service (RDS)",
         image: "/skill/backend/aws-rds.png",
+      },
+      {
+        name: "Nginx",
+        image: "/skill/backend/nginx.png",
       },
     ],
   },
@@ -311,6 +333,10 @@ export const skills: SkillType[] = [
       {
         name: "Docker",
         image: "/skill/devtools/docker.png",
+      },
+      {
+        name: "Postman",
+        image: "/skill/devtools/postman.png",
       },
     ],
   },
