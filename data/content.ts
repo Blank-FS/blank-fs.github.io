@@ -18,15 +18,15 @@ export const profile: ProfileType = {
 };
 
 export const about: AboutType = {
-  greeting: "Hi, I'm Felix!👋",
+  greeting: "Hi, I'm Felix!",
   paragraphs: [
-    "I'm a upcoming senior at the University of Michigan pursuing a BSE in Computer Science, currently holding a 4.0 unweighted GPA. My academic journey is driven by a deep passion for technology and a commitment to continuous learning and growth.",
+    "I'm an upcoming senior at the University of Michigan pursuing a BSE in Computer Science with a 4.0 GPA. I'm passionate about building scalable, production-ready systems and continuously refining my skills across the full stack.",
 
-    "I've had the opportunity to gain hands-on experience through internships and personal projects, where I've worked across the full stack using modern frameworks and tools like Next.js, Spring Boot, and both SQL and NoSQL databases. During my internship at Shenzhen Ningyuan Technology Co., I streamlined API documentation processes by transitioning from a static frontend to a dynamic backend solution using Spring Boot and MySQL — boosting productivity and maintainability for the development team.",
+    "Through internships and independent projects, I've worked extensively with modern technologies including Next.js, Spring Boot, SQL and NoSQL databases, Docker, and AWS. During my internship at Shenzhen Ningyuan Technology Co., I improved the team's API documentation workflow by transitioning from a static frontend approach to a dynamic backend-driven system using Spring Boot and MySQL, significantly increasing maintainability and development efficiency.",
 
-    "Outside of internships, I've worked on several projects such as TeamUp, a full-stack matchmaking platform for hackathons built using Next.js and MongoDB, and KotobaQuest, a Japanese vocabulary learning tool that's actively helped students at my high school. Currently, I'm building an over-the-top (OTT) platform with e-commerce integration using Next.js for frontend and Spring Boot for backend. These experiences not only sharpened my development skills but also taught me the value of collaboration, design thinking, and creating meaningful user experiences.",
+    "Outside of internships, I focus on building end-to-end products. I developed TeamUp, a full-stack hackathon matchmaking platform using Next.js and MongoDB, and KotobaQuest, a Japanese vocabulary learning tool adopted by students at my high school. I am currently building Aniworks, a full-stack anime and manga platform that began as a tracking application and is evolving into a broader ecosystem featuring social functionality, an OTT streaming component, and e-commerce integration. I handle the full lifecycle—from architecture and development to cloud deployment and infrastructure configuration.",
 
-    "I'm especially enthusiastic about exploring opportunities where I can grow as a developer, contribute to impactful projects, and work with innovative teams. Whether it's building scalable backend systems, crafting intuitive frontends, or contributing to open-source, I'm eager to keep pushing boundaries and learning more every day.",
+    "I'm especially interested in opportunities where I can work on challenging engineering problems, contribute to scalable systems, and collaborate with teams that value technical excellence. Whether building robust backend services, crafting intuitive user experiences, or improving system infrastructure, I'm motivated by solving meaningful problems and continuously learning.",
   ],
 };
 
@@ -121,18 +121,28 @@ export const experiences: ExperienceType[] = [
 
 export const projects: ProjectType[] = [
   {
-    title: "Intervention Studies",
-    date: "Sept 2025 - Present",
+    title: "Aniworks",
+    date: "Nov 2025 - Present",
     stack: [
-      "TypeScript",
-      "React.js",
-      "Next.js",
-      "Tailwind CSS",
+      "Next.js (TypeScript)",
       "Spring Boot",
       "Docker",
       "AWS",
       "Nginx",
+      "Cloudflare",
     ],
+    link: "https://aniworks.net/",
+    points: [
+      "Engineered a full-stack anime & manga tracking platform using React and Spring Boot",
+      "Designed RESTful APIs with secure JWT-based authentication and persistent data storage",
+      "Containerized services with Docker and deployed to AWS using ECR, EC2, and Nginx",
+      "Configured Cloudflare for DNS, routing, HTTPS, and reverse proxy management",
+    ],
+  },
+  {
+    title: "Intervention Studies",
+    date: "Sept 2025 - Present",
+    stack: ["Next.js (TypeScript)", "Spring Boot", "Docker", "AWS", "Nginx"],
     link: "https://github.com/Blank-FS/intervention-studies",
     points: [
       "Created a platform for researchers to conduct studies on with a dashboard to manage users and study responses",
@@ -143,9 +153,7 @@ export const projects: ProjectType[] = [
     title: "Ineed.io",
     date: "Jan 2025 - Apr 2025",
     stack: [
-      "TypeScript",
-      "React.js",
-      "Next.js",
+      "Next.js (TypeScript)",
       "Supabase",
       "Figma",
       "Tailwind CSS",
@@ -162,9 +170,7 @@ export const projects: ProjectType[] = [
     title: "TeamUp",
     date: "Sept 2024",
     stack: [
-      "TypeScript",
-      "React.js",
-      "Next.js",
+      "Next.js (TypeScript)",
       "Prisma",
       "MongoDB",
       "GitHub",
@@ -301,17 +307,46 @@ export const skills: SkillType[] = [
         name: "MongoDB",
         image: "/skill/backend/mongodb.png",
       },
+    ],
+  },
+  {
+    category: "Cloud & DevOps",
+    list: [
+      {
+        name: "Docker",
+        image: "/skill/cloud-devops/docker.png",
+      },
+      {
+        name: "AWS",
+        image: "/skill/cloud-devops/aws.png",
+      },
       {
         name: "AWS Elastic Compute Cloud (EC2)",
-        image: "/skill/backend/aws-ec2.png",
+        image: "/skill/cloud-devops/aws-ec2.png",
+      },
+      {
+        name: "AWS Elastic Container Registry (ECR)",
+        image: "/skill/cloud-devops/aws-ecr.png",
       },
       {
         name: "AWS Relational Database Service (RDS)",
-        image: "/skill/backend/aws-rds.png",
+        image: "/skill/cloud-devops/aws-rds.png",
+      },
+      {
+        name: "AWS Simple Storage Service (S3)",
+        image: "/skill/cloud-devops/aws-s3.png",
+      },
+      {
+        name: "AWS CloudFront",
+        image: "/skill/cloud-devops/aws-cloudfront.png",
       },
       {
         name: "Nginx",
-        image: "/skill/backend/nginx.png",
+        image: "/skill/cloud-devops/nginx.png",
+      },
+      {
+        name: "Cloudflare",
+        image: "/skill/cloud-devops/cloudflare.png",
       },
     ],
   },
@@ -329,10 +364,6 @@ export const skills: SkillType[] = [
       {
         name: "Ubuntu Linux",
         image: "/skill/devtools/ubuntu-linux.jpg",
-      },
-      {
-        name: "Docker",
-        image: "/skill/devtools/docker.png",
       },
       {
         name: "Postman",
